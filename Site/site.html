@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico de Atividade da Esteira</title>
+    <style>
+        body {
+            background-color: #787693;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f7f6ff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex; 
+            flex-direction: column; 
+        }
+        .historico {
+            margin-bottom: 20px;
+        }
+        .graficos {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%; /* Largura total */
+            box-sizing: border-box;
+            text-align: center; /* Centralizar os elementos */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="historico">
+            <h2>Histórico de Atividade da Esteira</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Hora</th>
+                        <th>Semana</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>06:11</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>07:24</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>08:01</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>08:04</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>08:23</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>08:27</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>08:28</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>08:37</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>09:08</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>10:42</td>
+                      <td>1</td>
+                  </tr>
+                  <tr>
+                      <td>01/05/2024</td>
+                      <td>11:39</td>
+                      <td>1</td>
+                  </tr>
+                  <!-- Incluir mais entradas para cada dia da primeira semana -->
+              </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="graficos">
+        <h2>Gráficos</h2>
+        <img src="grafico-diario.png" alt="Gráfico Diário">
+        <img src="grafico-semanal.png" alt="Gráfico Semanal">
+    </div>
+</body>
+</html>
